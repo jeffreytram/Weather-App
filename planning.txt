@@ -1,0 +1,9 @@
+
+8.12 [x] complete basic weather app demo
+[] brainstorm features of app
+- 
+
+[] design UI of app
+
+[] implement features
+[] implement ui
