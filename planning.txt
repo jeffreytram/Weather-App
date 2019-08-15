@@ -1,9 +1,26 @@
+Runner's Weather Report
 
 8.12 [x] complete basic weather app demo
-[] brainstorm features of app
-- 
 
-[] design UI of app
+8.14 [x] brainstorm ideas for app
+- display past weather
+- suggest clothing based on weather and location
+- suggest/remind bringing umbrella
+- running conditions
+    - based on current conditions, output weather report related to running
+    - i.e. perfect day for running, take it easy
+    - humidity, dew point, temperature
 
-[] implement features
-[] implement ui
+8.15 [x] create requirements
+- current weather condition report
+- weather report
+    - status - good for running?
+    - temperature
+    - humidity
+    - dew point
+
+     [] additional features
+- past weather condition report
+- manually input location
+- user set conditions
+- future dates
