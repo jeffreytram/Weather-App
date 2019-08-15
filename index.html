@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Runner's Weather Report</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <p>hi</p>
-        <script src="script.js" async defer></script>
-    </body>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Runner's Weather Report</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Runner's Weather Report</h1>
+    <div class="main">
+        <div class="timesetting">
+            <h2>Current</h2>
+            <h2>Past</h2>
+        </div>
+        <div class="status">
+        </div>
+        <div class="report">
+            <canvas class="icon" width="128" height="128"></canvas>
+            <div class="report-data">
+                <div class="temperature">
+                </div>
+                <div class="humidity">
+                </div>
+                <div class="dewpoint">
+                </div>
+            </div>
+        </div>
+        <div class="more-info">
+            <button>more info</button>
+        </div>
+    </div>
+    <script src="skycons.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
 </html>

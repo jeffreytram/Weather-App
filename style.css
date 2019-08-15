@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    width: 50%;
+}
+
+.timesetting, .more-info, .status{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.report{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
