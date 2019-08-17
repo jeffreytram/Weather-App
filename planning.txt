@@ -24,3 +24,10 @@ Runner's Weather Report
 - manually input location
 - user set conditions
 - future dates
+
+8.15 [x] added current weather condition report
+
+8.16 [x] add more info link
+8.16 [x] added location display
+
+[] add running summary
