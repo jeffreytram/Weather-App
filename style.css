@@ -9,11 +9,11 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.main{
+.main, .tab{
     width: 50%;
 }
 
-.timesetting, .more-info, .status{
+.tab, .location, .more-info, .status{
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -22,4 +22,13 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
+}
+.icon{
+    margin-right: 3%;
+}
+.location{
+    margin: 5% 0%;
+}
+.pastOptions{
+    text-align: center;
 }

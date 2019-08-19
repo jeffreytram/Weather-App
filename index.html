@@ -12,11 +12,16 @@
 
 <body>
     <h1>Runner's Weather Report</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="generateWeather(); revealPastOptions(false)">Current</button>
+        <button class="tablinks" onclick="revealPastOptions(true)">Past</button>
+    </div>
+    <div class="pastOptions">
+        <input class="dateInput" type="date">
+        <input class="timeInput" type="time">
+        <button id="inputSubmit">submit</button>
+    </div>
     <div class="main">
-        <div class="timesetting">
-            <h2>Current</h2>
-            <h2>Past</h2>
-        </div>
         <div class="location">
         </div>
         <div class="status">

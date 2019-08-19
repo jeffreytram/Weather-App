@@ -30,4 +30,13 @@ Runner's Weather Report
 8.16 [x] add more info link
 8.16 [x] added location display
 
+8.17 [x] adding tabs
+
+8.18 [x] added past weather functionality
+
+[] test different time zone for past weather
+
 [] add running summary
+[] formula to calculate conditon?
+- 
+data visualization running data
