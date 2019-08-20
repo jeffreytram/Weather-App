@@ -34,9 +34,14 @@ Runner's Weather Report
 
 8.18 [x] added past weather functionality
 
-[] test different time zone for past weather
+8.19 [x] add tab click event listener
+- do role on click
+- add "active" highlight underline
+8.19 [x] refresh current weather when clicking current
+8.19 [x] add more info for past
+8.19 [x] check for invalid date or time input
+8.19 [x] added pointer on hover of tabs and buttons
 
-[] add running summary
-[] formula to calculate conditon?
-- 
-data visualization running data
+- [] error/warning
+    - data is not available
+    - invalid year

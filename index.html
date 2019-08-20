@@ -4,22 +4,24 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Runner's Weather Report</title>
+    <title>Weather Report</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Runner's Weather Report</h1>
+    <h1 class="title">Weather Report</h1>
     <div class="tab">
-        <button class="tablinks" onclick="generateWeather(); revealPastOptions(false)">Current</button>
-        <button class="tablinks" onclick="revealPastOptions(true)">Past</button>
+        <h2 class="tablinks active" id="current">Current</h2>
+        <h2 class="tablinks" id="past">Past</h2>
     </div>
     <div class="pastOptions">
         <input class="dateInput" type="date">
         <input class="timeInput" type="time">
         <button id="inputSubmit">submit</button>
+    </div>
+    <div class="errorHandling">
     </div>
     <div class="main">
         <div class="location">
@@ -38,7 +40,7 @@
             </div>
         </div>
         <div class="more-info">
-            <a class="link"><button>more info</button></a>
+            <a class="link" target="_blank"><button>more info</button></a>
         </div>
     </div>
     <script src="skycons.js"></script>

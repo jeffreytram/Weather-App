@@ -26,9 +26,21 @@ body{
 .icon{
     margin-right: 3%;
 }
-.location{
-    margin: 5% 0%;
-}
 .pastOptions{
     text-align: center;
+}
+.active{
+    border-bottom: solid 2px black;
+}
+.title{
+    margin-bottom: 2vh;
+}
+.tab, .main, .location{
+    margin: 3vh 0;
+}
+.errorHandling{
+    color: red;
+}
+.tablinks:hover, button:hover{
+    cursor: pointer;
 }
