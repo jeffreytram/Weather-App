@@ -10,13 +10,14 @@ body{
     flex-direction: column;
 }
 .main, .tab{
-    width: 50%;
+    width: 70%;
 }
 
 .tab, .location, .more-info, .status{
     justify-content: space-around;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 .report{
     justify-content: center;

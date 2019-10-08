@@ -42,6 +42,21 @@ Runner's Weather Report
 8.19 [x] check for invalid date or time input
 8.19 [x] added pointer on hover of tabs and buttons
 
+10.8 [x] increased width of main content display
+
 - [] error/warning
     - data is not available
     - invalid year
+
+
+[] based on current weather, suggest an outfit
+-outfit tiers
+-upload pictures of clothing
+-rng random combinatons of outfits
+    -user rates random combination
+    -higher rating gives bias
+-calandar clothing history
+-clothing types
+    -shirt, pants, shoes, outerwear
+
+ 

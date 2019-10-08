@@ -85,7 +85,6 @@ function generateWeather(lat, long, time) {
             const { summary, temperature, humidity, dewPoint, icon } = data.currently;
 
             statusReport.textContent = summary;
-            debugger;
             temperatureReport.textContent = "temp: " + Math.round(temperature) + "°F";
             humidityReport.textContent = "humidity: " + Math.round(humidity * 100) + "%";
             dewpoint.textContent = "dew point: " + Math.round(dewPoint) + "°F";
